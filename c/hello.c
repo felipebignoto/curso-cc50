@@ -1,7 +1,12 @@
 #include <stdio.h>
 
 int main(){
-    printf("Ola mundo!");
-    float x;
-    scanf("%f",&x);
+    printf("Digite seu nome: ");
+    char nome[100];
+    scanf("%s",nome);
+    printf("Ola, %s ! ", nome);
+    //Comentario na linha
+    /*
+    Linhas de comentarios
+    */
 }
