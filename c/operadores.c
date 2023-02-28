@@ -28,10 +28,21 @@ int main()
     int x = 5;
     int y = 10;
     if(x<y){
-        printf("X eh menor do que Y");
+        printf("X eh menor do que Y\n");
     }
     else{
-        printf("Y eh menor do que X");
+        printf("Y eh menor do que X\n");
+    }
+
+    //estruturas de repetição
+    int i = 0;
+    while(i<5){
+        printf("hello world!\n");
+        i++;
+    }
+
+    for(int c=0;c<3;c++){
+        printf("%i\n",c);
     }
 
 }
